@@ -1,6 +1,6 @@
 {
   "name": "@singcl/iconfont-cn",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "使我们能够在Vue2.x中使用自定义的iconfont库",
   "main": "dist/iconfontCn.cjs.js",
   "module": "dist/iconfontCn.esm.js",
