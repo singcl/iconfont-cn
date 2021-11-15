@@ -1,4 +1,5 @@
 [![](https://img.shields.io/bundlephobia/min/@singcl/iconfont-cn)](https://www.npmjs.com/package/@singcl/iconfont-cn)
+![](https://img.shields.io/github/package-json/v/singcl/iconfont-cn)
 ## 支持 Vue2.x 使用自定义 iconfont 项目
 
 ```js
