@@ -2,9 +2,9 @@
   "name": "@singcl/iconfont-cn",
   "version": "0.0.3",
   "description": "使我们能够在Vue2.x中使用自定义的iconfont库",
-  "main": "dist/aliiconfont-vue.cjs.js",
-  "module": "dist/aliiconfont-vue.esm.js",
-  "browser": "dist/aliiconfont-vue.umd.js",
+  "main": "dist/iconfontCn.cjs.js",
+  "module": "dist/iconfontCn.esm.js",
+  "browser": "dist/iconfontCn.umd.js",
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w"
