@@ -1,4 +1,5 @@
-# 支持 Vue2.x 使用自定义 iconfont 项目
+![](https://img.shields.io/bundlephobia/min/@singcl/iconfont-cn)
+## 支持 Vue2.x 使用自定义 iconfont 项目
 
 ```js
 import Icon from "@singcl/iconfont-cn";
