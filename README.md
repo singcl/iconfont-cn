@@ -16,7 +16,7 @@
 #### 1. 安装
 
 ```
-npm i @singcl/iconfont-cn
+npm i @singcl/iconfont-cn -S
 ```
 
 #### 2. 使用
