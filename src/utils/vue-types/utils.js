@@ -188,13 +188,13 @@ export const validateType = (type, value, silent = false) => {
 
 let warn = noop;
 
-if (process.env.NODE_ENV !== 'production') {
-  const hasConsole = typeof console !== 'undefined';
-  warn = msg => {
-    if (hasConsole) {
-      console.warn(`[VueTypes warn]: ${msg}`);
-    }
-  };
-}
+// if (process.env.NODE_ENV !== 'production') {
+//   const hasConsole = typeof console !== 'undefined';
+//   warn = msg => {
+//     if (hasConsole) {
+//       console.warn(`[VueTypes warn]: ${msg}`);
+//     }
+//   };
+// }
 
 export { warn };

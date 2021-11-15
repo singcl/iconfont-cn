@@ -1,4 +1,4 @@
-import { generate, isIconDefinition, log, MiniMap, withSuffix } from "../utils";
+import { generate, isIconDefinition, /* log, */ MiniMap, withSuffix } from "../utils";
 
 const Icon = {
   name: "AntdIcon",
@@ -22,7 +22,7 @@ const Icon = {
       target = type;
     }
     if (!target) {
-      log(`type should be string or icon definiton, but got ${type}`);
+      // log(`type should be string or icon definiton, but got ${type}`);
       return null;
     }
     return generate(h, target.icon, `svg-${target.name}`, {
