@@ -12,8 +12,20 @@
   "files": [
     "dist"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/singcl/iconfont-cn.git"
+  },
+  "keywords": [
+    "vue2.x",
+    "iconfont"
+  ],
   "author": "singcl",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/singcl/iconfont-cn/issues"
+  },
+  "homepage": "https://github.com/singcl/iconfont-cn#readme",
   "dependencies": {
     "classnames": "^2.3.1",
     "lodash.isplainobject": "^4.0.6"
