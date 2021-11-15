@@ -26,6 +26,7 @@
     "@rollup/plugin-node-resolve": "^7.0.0",
     "@vue/babel-helper-vue-jsx-merge-props": "^1.2.1",
     "@vue/babel-preset-jsx": "^1.2.4",
-    "rollup": "^1.29.0"
+    "rollup": "^1.29.0",
+    "rollup-plugin-terser": "^7.0.2"
   }
 }

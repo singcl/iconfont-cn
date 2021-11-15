@@ -1,6 +1,7 @@
 import resolve from "@rollup/plugin-node-resolve";
 import commonjs from "@rollup/plugin-commonjs";
 import { babel } from "@rollup/plugin-babel";
+import { terser } from "rollup-plugin-terser";
 import pkg from "./package.json";
 // import jsx from "acorn-jsx";
 
@@ -11,7 +12,7 @@ export default [
     output: {
       name: "AliIconVue",
       file: pkg.browser,
-      format: "umd",
+      format: "umd", // iife
     },
     plugins: [
       resolve(), // so Rollup can find `ms`
@@ -20,6 +21,7 @@ export default [
         babelHelpers: "bundled",
         exclude: ["node_modules/**"],
       }),
+      terser(),
     ],
     // acornInjectPlugins: [jsx()]
   },
@@ -40,6 +42,7 @@ export default [
         babelHelpers: "bundled",
         exclude: ["node_modules/**"],
       }),
+      terser(),
     ],
     output: [
       { file: pkg.main, format: "cjs" },
