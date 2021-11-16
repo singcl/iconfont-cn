@@ -1,7 +1,7 @@
+[![Build Status](https://app.travis-ci.com/singcl/iconfont-vue.svg?branch=master)](https://app.travis-ci.com/singcl/iconfont-vue)
 [![install size](https://packagephobia.com/badge?p=@singcl/iconfont-cn)](https://packagephobia.com/result?p=@singcl/iconfont-cn)
 [![](https://img.shields.io/bundlephobia/min/@singcl/iconfont-cn)](https://www.npmjs.com/package/@singcl/iconfont-cn)
 [![](https://img.shields.io/npm/v/@singcl/iconfont-cn)](https://www.npmjs.com/package/@singcl/iconfont-cn)
-![](https://img.shields.io/github/package-json/v/singcl/iconfont-cn)
 
 ## @singcl/iconfont-cn
 
@@ -46,3 +46,5 @@ Vue.component("my-icon", MyIcon);
 ```
 
 当然 UMD 模式也是支持的，`examples`中的示例就是浏览器直接使用。
+
+![](https://img.shields.io/github/package-json/v/singcl/iconfont-cn)
