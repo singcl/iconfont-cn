@@ -1,4 +1,4 @@
-[![Build Status](https://app.travis-ci.com/singcl/iconfont-vue.svg?branch=master)](https://app.travis-ci.com/singcl/iconfont-vue)
+[![Build Status](https://app.travis-ci.com/singcl/iconfont-cn.svg?branch=master)](https://app.travis-ci.com/singcl/iconfont-cn)
 [![install size](https://packagephobia.com/badge?p=@singcl/iconfont-cn)](https://packagephobia.com/result?p=@singcl/iconfont-cn)
 [![](https://img.shields.io/bundlephobia/min/@singcl/iconfont-cn)](https://www.npmjs.com/package/@singcl/iconfont-cn)
 [![](https://img.shields.io/npm/v/@singcl/iconfont-cn)](https://www.npmjs.com/package/@singcl/iconfont-cn)
