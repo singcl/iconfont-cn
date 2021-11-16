@@ -19,7 +19,18 @@
 npm i @singcl/iconfont-cn -S
 ```
 
-#### 2. 使用
+#### 2. API
+
+| 参数      | 说明                                                                                | 类型                                      | 默认值       |
+| --------- | ----------------------------------------------------------------------------------- | ----------------------------------------- | ------------ |
+| type      | 图标类型。遵循图标的命名规范                                                        | `string`                                  | -            |
+| style     | 设置图标的样式，例如 `fontSize` 和 `color`                                          | `CSSProperties`                           | -            |
+| theme     | 图标主题风格。可选实心、描线、双色等主题风格，适用于官方图标 `'filled', 'outlined'` | `'filled', 'outlined'`                    | `'outlined'` |
+| spin      | 是否有旋转动画                                                                      | `boolean`                                 | `false`      |
+| rotate    | 图标旋转角度（1.4.0 后新增，IE9 无效）                                              | `number`                                  | -            |
+| component | 控制如何渲染图标，通常是一个渲染根标签为 `svg` 的 Vue 组件，会使 type 属性失效      | `ComponentType<CustomIconComponentProps>` | -            |
+
+#### 3. 使用
 
 ```js
 import Icon from "@singcl/iconfont-cn";
@@ -30,4 +41,8 @@ const MyIcon = Icon.createFromIconfontCN({
 Vue.component("my-icon", MyIcon);
 ```
 
-当然UMD模式也是支持的，`examples`中的示例就是浏览器直接使用。
+```jsx
+<my-icon type="iconnew1" style="font-size: 30px"></my-icon>
+```
+
+当然 UMD 模式也是支持的，`examples`中的示例就是浏览器直接使用。
