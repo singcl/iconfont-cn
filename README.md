@@ -2,7 +2,7 @@
 [![](https://img.shields.io/bundlephobia/min/@singcl/iconfont-cn)](https://www.npmjs.com/package/@singcl/iconfont-cn)
 [![](https://img.shields.io/npm/v/@singcl/iconfont-cn)](https://www.npmjs.com/package/@singcl/iconfont-cn)
 ![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/singcl/iconfont-cn/dev/rollup)
-
+[![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/singcl/iconfont-cn)
 ## @singcl/iconfont-cn
 
 在`vue2.x`项目中可以使用自定义的 iconfont 图标库。
